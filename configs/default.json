@@ -1,0 +1,9 @@
+{
+  "runtime": {
+    "steps": 120,
+    "render_html": "outputs/demo_trace.html"
+  },
+  "policy": {
+    "target_speed": 8.0
+  }
+}

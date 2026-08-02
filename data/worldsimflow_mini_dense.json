@@ -1,0 +1,33 @@
+{
+  "scenario_id": "worldsimflow_mini_dense_001",
+  "seed": 20260721,
+  "dt": 0.1,
+  "max_steps": 180,
+  "road": {
+    "length": 600.0,
+    "lane_width": 3.5,
+    "lane_count": 3
+  },
+  "ego": {
+    "x": 0.0,
+    "y": 0.0,
+    "yaw": 0.0,
+    "speed": 0.0
+  },
+  "actors": [],
+  "metadata": {
+    "source": "worldsimflow_procedural",
+    "tags": [
+      "synthetic",
+      "dense_traffic",
+      "idm_traffic",
+      "stress_test"
+    ],
+    "procedural_seed_config": {
+      "map": "SS",
+      "traffic_density": 0.18,
+      "horizon": 180,
+      "random_traffic": false
+    }
+  }
+}

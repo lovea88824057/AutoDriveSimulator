@@ -1,0 +1,52 @@
+{
+  "scenario_id": "openlog_curve_001__map_aware_idm",
+  "seed": 20260720,
+  "dt": 0.1,
+  "max_steps": 240,
+  "road": {
+    "length": 700.0,
+    "lane_width": 3.5,
+    "lane_count": 3
+  },
+  "ego": {
+    "x": 0.0,
+    "y": 0.0,
+    "yaw": 0.0,
+    "speed": 0.0,
+    "length": 4.6,
+    "width": 1.9,
+    "object_type": "VEHICLE"
+  },
+  "actors": [],
+  "map_features": [],
+  "drivable_area": null,
+  "metadata": {
+    "source": "worldsimflow_procedural",
+    "tags": [
+      "curve",
+      "generalization",
+      "idm_traffic",
+      "map_aware_idm",
+      "openlog",
+      "non_log_traffic",
+      "traffic_policy"
+    ],
+    "openlog": {
+      "map": "SC",
+      "traffic_density": 0.06,
+      "horizon": 240,
+      "random_traffic": false
+    },
+    "traffic_mode": "map_aware_idm",
+    "traffic_policies": [
+      {
+        "kind": "map_aware_idm",
+        "actor_count": 0,
+        "desired_speed": 9.0,
+        "min_gap": 4.0,
+        "time_headway": 1.3,
+        "map_feature_count": 0
+      }
+    ]
+  }
+}

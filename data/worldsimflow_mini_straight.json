@@ -1,0 +1,33 @@
+{
+  "scenario_id": "worldsimflow_mini_straight_001",
+  "seed": 20260719,
+  "dt": 0.1,
+  "max_steps": 200,
+  "road": {
+    "length": 600.0,
+    "lane_width": 3.5,
+    "lane_count": 3
+  },
+  "ego": {
+    "x": 0.0,
+    "y": 0.0,
+    "yaw": 0.0,
+    "speed": 0.0
+  },
+  "actors": [],
+  "metadata": {
+    "source": "worldsimflow_procedural",
+    "tags": [
+      "synthetic",
+      "rl_closed_loop",
+      "straight",
+      "idm_traffic"
+    ],
+    "procedural_seed_config": {
+      "map": "S",
+      "traffic_density": 0.08,
+      "horizon": 200,
+      "random_traffic": false
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "scenario_id": "straight_close_follow_001",
+  "seed": 20260718,
+  "dt": 0.1,
+  "max_steps": 120,
+  "road": {
+    "length": 300.0,
+    "lane_width": 3.6,
+    "lane_count": 2
+  },
+  "ego": {
+    "x": 0.0,
+    "y": 0.0,
+    "yaw": 0.0,
+    "speed": 6.0
+  },
+  "actors": [
+    {
+      "actor_id": "cut_in_vehicle",
+      "trajectory": {
+        "kind": "cut_in",
+        "start": {"x": 16.0, "y": 3.6, "yaw": 0.0, "speed": 7.0},
+        "target_y": 0.0,
+        "lane_change_steps": 60
+      }
+    },
+    {
+      "actor_id": "lead_vehicle",
+      "trajectory": {
+        "kind": "steady_lead",
+        "start": {"x": 35.0, "y": 0.0, "yaw": 0.0, "speed": 8.0}
+      }
+    }
+  ],
+  "metadata": {
+    "source": "synthetic_log",
+    "tags": ["logsim", "cut_in", "phase1_full_length"]
+  }
+}

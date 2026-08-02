@@ -1,0 +1,3300 @@
+{
+  "scenario_id": "straight_close_follow_001__idm_lite_idm_follower",
+  "seed": 20260718,
+  "dt": 0.1,
+  "max_steps": 120,
+  "road": {
+    "length": 300.0,
+    "lane_width": 3.6,
+    "lane_count": 2
+  },
+  "ego": {
+    "x": 0.0,
+    "y": 0.0,
+    "yaw": 0.0,
+    "speed": 6.0,
+    "length": 4.6,
+    "width": 1.9,
+    "object_type": "VEHICLE"
+  },
+  "actors": [
+    {
+      "actor_id": "cut_in_vehicle",
+      "states": [
+        {
+          "x": 16.0,
+          "y": 3.6,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 16.7,
+          "y": 3.54,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 17.4,
+          "y": 3.48,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 18.1,
+          "y": 3.42,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 18.8,
+          "y": 3.36,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 19.5,
+          "y": 3.3,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 20.2,
+          "y": 3.24,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 20.9,
+          "y": 3.18,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 21.6,
+          "y": 3.12,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 22.3,
+          "y": 3.06,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 23.0,
+          "y": 3.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 23.7,
+          "y": 2.94,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 24.4,
+          "y": 2.88,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 25.1,
+          "y": 2.82,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 25.8,
+          "y": 2.76,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 26.5,
+          "y": 2.7,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 27.2,
+          "y": 2.64,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 27.9,
+          "y": 2.58,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 28.6,
+          "y": 2.52,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 29.3,
+          "y": 2.46,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 30.0,
+          "y": 2.4,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 30.7,
+          "y": 2.34,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 31.4,
+          "y": 2.28,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 32.1,
+          "y": 2.22,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 32.8,
+          "y": 2.16,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 33.5,
+          "y": 2.1,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 34.2,
+          "y": 2.04,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 34.9,
+          "y": 1.98,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 35.6,
+          "y": 1.92,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 36.3,
+          "y": 1.86,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 37.0,
+          "y": 1.8,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 37.7,
+          "y": 1.74,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 38.4,
+          "y": 1.68,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 39.1,
+          "y": 1.62,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 39.8,
+          "y": 1.56,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 40.5,
+          "y": 1.5,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 41.2,
+          "y": 1.44,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 41.9,
+          "y": 1.38,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 42.6,
+          "y": 1.32,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 43.3,
+          "y": 1.26,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 44.0,
+          "y": 1.2,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 44.7,
+          "y": 1.14,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 45.4,
+          "y": 1.08,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 46.1,
+          "y": 1.02,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 46.8,
+          "y": 0.96,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 47.5,
+          "y": 0.9,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 48.2,
+          "y": 0.84,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 48.9,
+          "y": 0.78,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 49.6,
+          "y": 0.72,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 50.3,
+          "y": 0.66,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 51.0,
+          "y": 0.6,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 51.7,
+          "y": 0.54,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 52.4,
+          "y": 0.48,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 53.1,
+          "y": 0.42,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 53.8,
+          "y": 0.36,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 54.5,
+          "y": 0.3,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 55.2,
+          "y": 0.24,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 55.9,
+          "y": 0.18,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 56.6,
+          "y": 0.12,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 57.3,
+          "y": 0.06,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 58.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 58.7,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 59.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 60.1,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 60.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 61.5,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 62.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 62.9,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 63.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 64.3,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 65.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 65.7,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 66.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 67.1,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 67.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 68.5,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 69.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 69.9,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 70.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 71.3,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 72.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 72.7,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 73.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 74.1,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 74.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 75.5,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 76.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 76.9,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 77.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 78.3,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 79.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 79.7,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 80.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 81.1,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 81.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 82.5,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 83.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 83.9,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 84.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 85.3,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 86.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 86.7,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 87.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 88.1,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 88.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 89.5,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 90.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 90.9,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 91.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 92.3,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 93.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 93.7,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 94.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 95.1,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 95.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 96.5,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 97.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 97.9,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 98.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 99.3,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 7.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        }
+      ]
+    },
+    {
+      "actor_id": "idm_follower",
+      "states": [
+        {
+          "x": -18.3,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.1,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -17.7819,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.1813,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -17.2559,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.2601,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -16.7222,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.3365,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -16.1812,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.4103,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -15.633,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.4815,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -15.078,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.55,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -14.5164,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.616,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -13.9485,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.6792,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -13.3745,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.7398,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -12.7948,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.7978,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -12.2095,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.853,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -11.6189,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.9056,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -11.0233,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 5.9556,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -10.423,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0029,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -9.8183,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0477,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -9.2093,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0899,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -8.5963,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1296,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -7.9796,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1669,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -7.3595,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2017,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -6.736,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2342,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -6.1096,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2644,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -5.4804,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2924,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -4.8485,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3182,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -4.2143,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.342,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -3.578,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3637,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -2.9396,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3834,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -2.2995,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4013,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -1.6577,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4174,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -1.0146,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4318,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": -0.3701,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4445,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 0.2754,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4556,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 0.922,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4652,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 1.5693,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4734,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 2.2173,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4802,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 2.8659,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4857,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 3.5149,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4901,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 4.1642,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4932,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 4.8137,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4953,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 5.4634,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4964,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 6.113,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4965,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 6.7626,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4958,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 7.412,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4942,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 8.0612,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4918,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 8.7101,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4887,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 9.3586,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4849,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 10.0066,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4806,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 10.6542,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4756,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 11.3012,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4702,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 11.9476,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4642,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 12.5934,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4579,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 13.2385,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4511,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 13.8829,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.444,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 14.5266,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4366,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 15.1695,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4289,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 15.8116,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4209,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 16.4528,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4128,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 17.0933,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.4044,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 17.7329,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3959,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 18.3716,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3873,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 19.0095,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3785,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 19.6464,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3697,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 20.2825,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3608,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 20.9177,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3519,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 21.552,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.343,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 22.1854,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.334,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 22.8179,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3251,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 23.4495,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3162,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 24.0803,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.3074,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 24.7101,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2986,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 25.3391,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2899,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 25.9672,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2812,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 26.5945,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2727,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 27.2209,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2642,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 27.8465,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2559,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 28.4713,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2476,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 29.0952,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2395,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 29.7184,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2316,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 30.3408,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2237,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 30.9624,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.216,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 31.5832,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2085,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 32.2033,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.2011,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 32.8227,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1939,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 33.4414,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1868,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 34.0594,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1798,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 34.6767,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1731,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 35.2933,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1665,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 35.9093,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.16,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 36.5247,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1537,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 37.1395,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1476,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 37.7536,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1416,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 38.3672,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1358,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 38.9802,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1302,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 39.5927,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1247,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 40.2046,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1194,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 40.8161,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1142,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 41.427,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1092,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 42.0374,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.1044,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 42.6474,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0997,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 43.2569,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0952,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 43.866,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0908,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 44.4746,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0865,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 45.0829,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0824,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 45.6907,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0785,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 46.2982,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0746,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 46.9053,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0709,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 47.512,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0674,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 48.1184,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.064,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 48.7245,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0607,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 49.3302,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0575,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 49.9357,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0545,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 50.5408,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0515,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 51.1457,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0487,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 51.7503,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.046,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 52.3547,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0434,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 52.9587,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0409,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 53.5626,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0386,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 54.1662,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0363,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 54.7696,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.0341,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 55.3728,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 6.032,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        }
+      ]
+    },
+    {
+      "actor_id": "lead_vehicle",
+      "states": [
+        {
+          "x": 35.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 35.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 36.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 37.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 38.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 39.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 39.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 40.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 41.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 42.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 43.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 43.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 44.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 45.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 46.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 47.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 47.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 48.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 49.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 50.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 51.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 51.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 52.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 53.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 54.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 55.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 55.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 56.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 57.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 58.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 59.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 59.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 60.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 61.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 62.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 63.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 63.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 64.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 65.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 66.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 67.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 67.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 68.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 69.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 70.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 71.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 71.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 72.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 73.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 74.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 75.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 75.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 76.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 77.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 78.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 79.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 79.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 80.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 81.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 82.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 83.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 83.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 84.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 85.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 86.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 87.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 87.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 88.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 89.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 90.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 91.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 91.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 92.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 93.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 94.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 95.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 95.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 96.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 97.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 98.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 99.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 99.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 100.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 101.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 102.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 103.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 103.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 104.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 105.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 106.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 107.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 107.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 108.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 109.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 110.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 111.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 111.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 112.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 113.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 114.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 115.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 115.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 116.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 117.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 118.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 119.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 119.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 120.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 121.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 122.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 123.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 123.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 124.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 125.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 126.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 127.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 127.8,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 128.6,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 129.4,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        },
+        {
+          "x": 130.2,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 8.0,
+          "length": 4.6,
+          "width": 1.9,
+          "object_type": "VEHICLE"
+        }
+      ]
+    }
+  ],
+  "map_features": [],
+  "drivable_area": null,
+  "metadata": {
+    "source": "synthetic_log",
+    "tags": [
+      "cut_in",
+      "idm_lite",
+      "logsim",
+      "phase1_full_length",
+      "traffic_policy"
+    ],
+    "traffic_policies": [
+      {
+        "kind": "idm_lite_follower",
+        "actor_id": "idm_follower",
+        "leader_id": "ego",
+        "desired_speed": 10.0,
+        "min_gap": 4.0,
+        "time_headway": 1.2,
+        "initial_gap": 16.0
+      }
+    ]
+  }
+}
